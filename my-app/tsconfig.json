@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "useDefineForClassFields": true,
+    "lib": ["dom", "esnext"],
+    "allowJs": true,  // Allow JavaScript files (optional)
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "module": "esnext",
+    "jsx": "react-jsx",  // Ensure JSX is enabled for React (new JSX Transform)
+    "strict": true
+  },
+  "include": [
+    "src"
+  ]
+}
